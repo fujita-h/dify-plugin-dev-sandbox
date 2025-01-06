@@ -1,0 +1,29 @@
+version: 0.0.1
+type: plugin
+author: fujita-h
+name: static_files
+label:
+  en_US: static_files
+description:
+  en_US: Static Files
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    endpoint:
+      enabled: true
+plugins:
+  endpoints:
+    - group/static_files.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-01-06T10:57:03.385576274Z
+privacy: PRIVACY.md
+verified: false

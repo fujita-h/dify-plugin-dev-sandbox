@@ -1,0 +1,8 @@
+endpoints:
+  - endpoints/paths/static_files.yaml
+  - endpoints/paths/static_files.root.yaml
+  - endpoints/paths/static_files.p1.yaml
+  - endpoints/paths/static_files.p2.yaml
+  - endpoints/paths/static_files.p3.yaml
+  - endpoints/paths/static_files.p4.yaml
+  - endpoints/paths/static_files.p5.yaml

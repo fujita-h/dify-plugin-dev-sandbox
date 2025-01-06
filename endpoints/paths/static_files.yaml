@@ -1,0 +1,5 @@
+path: "/static_files"
+method: "GET"
+extra:
+  python:
+    source: "endpoints/static_files.py"
