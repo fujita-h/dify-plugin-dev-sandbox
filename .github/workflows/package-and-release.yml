@@ -3,7 +3,7 @@ name: Package and Release
 on:
   push:
     tags:
-      - "v*"
+      - "*"
 
 jobs:
   package-and-release:
@@ -67,6 +67,5 @@ jobs:
       - name: Relase
         uses: softprops/action-gh-release@v2
         with:
-          generate_release_notes: true
           files: |
             ${{ steps.package.outputs.plugin_file }}
