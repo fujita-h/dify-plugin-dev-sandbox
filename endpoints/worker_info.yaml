@@ -1,0 +1,5 @@
+path: "/worker_info"
+method: "GET"
+extra:
+  python:
+    source: "endpoints/worker_info.py"

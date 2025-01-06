@@ -1,0 +1,28 @@
+version: 0.0.1
+type: plugin
+author: fujita-h
+name: worker_info
+label:
+  en_US: worker_info
+description:
+  en_US: Worker Info
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    endpoint:
+      enabled: true
+plugins:
+  endpoints:
+    - group/worker_info.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-01-06T10:38:20.135914642Z
+privacy: PRIVACY.md
