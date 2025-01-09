@@ -1,3 +1,5 @@
+[](./_assets/icon.svg)
+
 ## worker_info
 
 **Author:** fujita-h
@@ -5,6 +7,3 @@
 **Type:** extension
 
 ### Description
-
-
-
