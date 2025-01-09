@@ -32,7 +32,6 @@ jobs:
           echo ".vscode/" >> .difyignore
           echo ".gitignore" >> .difyignore
           echo ".ruff.toml" >> .difyignore
-          echo "GUIDE.md" >> .difyignore
       - name: Replace README.md
         run: |
           if [ -f "README.difypkg.md" ]; then
