@@ -32,11 +32,10 @@ jobs:
           echo ".vscode/" >> .difyignore
           echo ".gitignore" >> .difyignore
           echo ".ruff.toml" >> .difyignore
-          echo "GUIDE.md" >> .difyignore
       - name: Replace README.md
         run: |
           if [ -f "README.difypkg.md" ]; then
-            cp -f README.difypkg.md README.md
+            mv -f README.difypkg.md README.md
           fi
       - name: Get the repository directory name
         id: get_repo_dir_name
