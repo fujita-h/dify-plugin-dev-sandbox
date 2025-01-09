@@ -36,7 +36,7 @@ jobs:
       - name: Replace README.md
         run: |
           if [ -f "README.difypkg.md" ]; then
-            cp -f README.difypkg.md README.md
+            mv -f README.difypkg.md README.md
           fi
       - name: Get the repository directory name
         id: get_repo_dir_name
