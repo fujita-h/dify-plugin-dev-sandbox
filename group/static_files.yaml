@@ -1,3 +1,4 @@
+settings: []
 endpoints:
   - endpoints/paths/static_files.yaml
   - endpoints/paths/static_files.root.yaml
