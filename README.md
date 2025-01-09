@@ -1,4 +1,4 @@
-[](./_assets/icon.svg)
+![](./_assets/icon.svg)
 
 ## worker_info
 
